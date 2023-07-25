@@ -36,7 +36,7 @@
 <body class="font-lato">
     <header>
         <nav class="max-w-screen-2xl mx-auto my-12">
-            <div class="navbar bg-[#F85559] rounded-[600px]">
+            <div class="navbar lg:bg-[#F85559] rounded-[600px]">
                 <div class="navbar-start text-white">
                     <div class="hidden lg:flex">
                         <ul class="menu menu-horizontal px-1 space-x-8">
@@ -47,9 +47,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="navbar-center text-white">
+                <div class="-ml-56 lg:ml-28 pl-16 lg:pl-0 navbar-center text-black lg:text-white">
                     <img src="images/logo.png" alt="">
-                    <p class="text-4xl font-bold">Fruit Burst</p>
+                    <p class="text-xl lg:text-4xl font-bold">Fruit Burst</p>
                 </div>
                 <div class="navbar-end text-white relative">
                     <div class="hidden lg:flex">
@@ -58,16 +58,12 @@
                     </div>
                 </div>
                 
-                <div class="dropdown navbar:end">
+                <div class="dropdown navbar:end pr-16">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-1 shadow bg-base-200 rounded-box w-24">
                         <li><a>Home</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a>Shop</a></li>
@@ -78,7 +74,7 @@
         </nav>
 
             <!-- Sidebar or Carosel section -->
-            <section class="max-w-screen-2xl mx-auto">
+            <section class="px-5 lg:px-0 max-w-screen-2xl mx-auto">
                 <div class="carousel w-full h-[600px]">
                     <div id="slide1" class="carousel-item relative w-full">
 
@@ -86,8 +82,8 @@
                             <div class="hero-overlay bg-opacity-60"></div>
                             <div class="hero-content text-center text-neutral-content z-10">
                               <div>
-                                <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5 text-sm lg:text-xl font-medium">We supply highly quality organic products</p>
                                 <button class="btn bg-[#F85559] border-0 text-white">Shop Now</button>
                               </div>
                             </div>
@@ -104,8 +100,8 @@
                             <div class="hero-overlay bg-opacity-60"></div>
                             <div class="hero-content text-center text-neutral-content z-10">
                               <div>
-                                <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5 text-sm lg:text-xl font-medium">We supply highly quality organic products</p>
                                 <button class="btn bg-[#F85559] border-0 text-white">Shop Now</button>
                               </div>
                             </div>
@@ -122,8 +118,8 @@
                             <div class="hero-overlay bg-opacity-60"></div>
                             <div class="hero-content text-center text-neutral-content z-10">
                               <div>
-                                <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5 text-sm lg:text-xl font-medium">We supply highly quality organic products</p>
                                 <button class="btn bg-[#F85559] border-0 text-white">Shop Now</button>
                               </div>
                             </div>
@@ -140,8 +136,8 @@
                             <div class="hero-overlay bg-opacity-60"></div>
                             <div class="hero-content text-center text-neutral-content z-10">
                               <div>
-                                <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5 text-sm lg:text-xl font-medium">We supply highly quality organic products</p>
                                 <button class="btn bg-[#F85559] border-0 text-white">Shop Now</button>
                               </div>
                             </div>
@@ -162,35 +158,35 @@
       <section class="max-w-screen-2xl mx-auto my-12">
         <div class="lg:flex justify-between">
           <div>
-              <h3 class="text-center lg:text-start text-5xl font-extrabold ">Deal of the day</h3>
-              <p class="text-center lg:text-start lg:w-[600px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              <h3 class="text-center lg:text-start text-2xl lg:text-5xl font-extrabold mb-3">Deal of the day</h3>
+              <p class="text-center lg:text-start w-[430px] lg:w-[600px] pl-14 lg:pl-0 mb-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
-          <div class="items-center lg:items-start">
+          <div class="items-center lg:items-start pl-24 lg:pl-0">
             <div class="grid grid-flow-col gap-6 text-center auto-cols-max">
               <div class="flex flex-col">
-                <span class="countdown font-extrabold text-5xl">
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value:29;"> </span>
                 </span>
                 days 
               </div>
-              <p class="text-4xl">:</p>
+              <p class="text-2xl lg:text-4xl">:</p>
                
               <div class="flex flex-col">
-                <span class="countdown font-extrabold text-5xl">
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value:15;"></span>
                 </span>
                 hours
               </div> 
-              <p class="text-4xl">:</p>
+              <p class="text-2xl lg:text-4xl">:</p>
               <div class="flex flex-col">
-                <span class="countdown font-extrabold text-5xl">
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value:25;"></span>
                 </span>
                 min
               </div> 
-              <p class="text-4xl">:</p>
+              <p class="text-2xl lg:text-4xl">:</p>
               <div class="flex flex-col">
-                <span class="countdown font-extrabold text-5xl">
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value:08;"></span>
                 </span>
                 sec
@@ -199,7 +195,7 @@
           </div>
           </div>
           <!-- Card container -->
-          <div class="mt-12 gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="mt-12 gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-5 lg:px-0">
             <!-- Card-1 -->
             <div class="card  bg-base-100 border-2 shadow-xl">
               <figure class="px-10 pt-10">
@@ -311,13 +307,13 @@
       </section>
 
       <!-- Meet The team Section -->
-      <section class="max-w-screen-2xl mx-auto my-12">
+      <section class="max-w-screen-2xl mx-auto my-12 px-5 lg:px-0">
 
         <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content flex flex-col">
             <div class="">
-              <h1 class="mb-6 text-3xl lg:text-5xl font-bold">Meet the team section</h1>
+              <h1 class="mb-6 text-3xl lg:text-5xl font-bold pt-10 lg:pt-0">Meet the team section</h1>
               <p class="mb-12 w-[300px] lg:w-[600px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
       
           </div>
