@@ -7,6 +7,8 @@
   <title>Fruit Burst Online</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
   <!-- Goggle Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,6 +74,13 @@
             <li><a href="">About Us</a></li>
             <li><a>Shop</a></li>
             <li><a href="">All Fruits</a></li>
+            <li><a href="">
+                <input type="text" placeholder="Search here"
+                  class="input input-bordered w-full max-w-xs rounded-[50px] text-black" />
+                <div class="text-black absolute right-3 bottom-3"><button><i class="fa-solid fa-magnifying-glass"></i></div>
+                </button>
+              <!-- </div> -->
+            </a></li>
           </ul>
         </div>
       </div>
@@ -193,11 +202,11 @@
       <div class="lg:flex justify-between">
         <div>
           <h3 class="text-center lg:text-start text-2xl lg:text-5xl font-extrabold mb-3">Deal of the day</h3>
-          <p class="text-center lg:text-start w-[430px] lg:w-[600px] pl-14 lg:pl-0 mb-10">Contrary to popular belief, is
+          <p class="text-center lg:text-start w-[430px] lg:w-[600px] ml-32 lg:ml-0 mb-10">Contrary to popular belief, is
             not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over
             2000 years old.</p>
         </div>
-        <div class="items-center lg:items-start pl-24 lg:pl-0">
+        <div class="items-center lg:items-start ml-44 lg:ml-0">
           <div class="grid grid-flow-col gap-6 text-center auto-cols-max">
             <div class="flex flex-col">
               <span class="countdown font-extrabold text-3xl lg:text-5xl">
